@@ -1,0 +1,226 @@
+2019-03-07 17:59:20.799 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Starting ImdroidMappingApplicationTests on jason-176.local with PID 23909 (started by jason in /Users/jason/Documents/work/mapping)
+2019-03-07 17:59:20.803 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | The following profiles are active: dev
+2019-03-07 17:59:20.838 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 17:59:20 CST 2019]; root of context hierarchy
+2019-03-07 17:59:22.731 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitor'
+2019-03-07 17:59:22.737 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitorExecutor'
+2019-03-07 17:59:22.740 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 17:59:22.741 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'calculationExecutor'
+2019-03-07 17:59:22.741 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 17:59:22.742 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'nonCalculationExecutor'
+2019-03-07 17:59:23.092 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 17:59:23.173 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 17:59:20 CST 2019]; root of context hierarchy
+2019-03-07 17:59:23.180 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Detected ResponseBodyAdvice bean in globalResponseBodyHandler
+2019-03-07 17:59:23.261 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/task/end]}" onto public java.lang.String com.imdroid.controller.TaskController.endTask(java.lang.Long)
+2019-03-07 17:59:23.264 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 17:59:23.265 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 17:59:23.295 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 17:59:23.295 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 17:59:23.314 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in globalExceptionHandler
+2019-03-07 17:59:23.315 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected ResponseBodyAdvice implementation in globalResponseBodyHandler
+2019-03-07 17:59:23.668 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Started ImdroidMappingApplicationTests in 3.401 seconds (JVM running for 4.205)
+2019-03-07 17:59:23.685 [fileMonitor-1] INFO  --- com.imdroid.programSelfStart.FileMonitor | 开启文件监控成功
+2019-03-07 17:59:25.287 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+2019-03-07 17:59:25.291 [main] INFO  --- o.s.b.a.l.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-07 17:59:25.295 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Closing org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 17:59:20 CST 2019]; root of context hierarchy
+2019-03-07 17:59:25.297 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'nonCalculationExecutor'
+2019-03-07 17:59:25.297 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'calculationExecutor'
+2019-03-07 17:59:25.298 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'fileMonitorExecutor'
+2019-03-07 17:59:25.299 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} closed
+2019-03-07 17:59:55.961 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Starting ImdroidMappingApplicationTests on jason-176.local with PID 23915 (started by jason in /Users/jason/Documents/work/mapping)
+2019-03-07 17:59:55.965 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | The following profiles are active: dev
+2019-03-07 17:59:56.000 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Refreshing org.springframework.web.context.support.GenericWebApplicationContext@63eef88a: startup date [Thu Mar 07 17:59:56 CST 2019]; root of context hierarchy
+2019-03-07 17:59:57.869 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitor'
+2019-03-07 17:59:57.874 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitorExecutor'
+2019-03-07 17:59:57.876 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 17:59:57.877 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'calculationExecutor'
+2019-03-07 17:59:57.877 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 17:59:57.878 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'nonCalculationExecutor'
+2019-03-07 17:59:58.224 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 17:59:58.284 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@63eef88a: startup date [Thu Mar 07 17:59:56 CST 2019]; root of context hierarchy
+2019-03-07 17:59:58.290 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Detected ResponseBodyAdvice bean in globalResponseBodyHandler
+2019-03-07 17:59:58.353 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/task/end]}" onto public java.lang.String com.imdroid.controller.TaskController.endTask(java.lang.Long)
+2019-03-07 17:59:58.356 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 17:59:58.356 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 17:59:58.382 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 17:59:58.383 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 17:59:58.401 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in globalExceptionHandler
+2019-03-07 17:59:58.401 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected ResponseBodyAdvice implementation in globalResponseBodyHandler
+2019-03-07 17:59:58.776 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Started ImdroidMappingApplicationTests in 3.412 seconds (JVM running for 4.237)
+2019-03-07 17:59:58.793 [fileMonitor-1] INFO  --- com.imdroid.programSelfStart.FileMonitor | 开启文件监控成功
+2019-03-07 18:00:00.288 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+2019-03-07 18:00:00.608 [main] INFO  --- o.s.beans.factory.xml.XmlBeanDefinitionReader | Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-03-07 18:00:00.649 [main] INFO  --- o.s.b.a.l.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-07 18:00:00.654 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Closing org.springframework.web.context.support.GenericWebApplicationContext@63eef88a: startup date [Thu Mar 07 17:59:56 CST 2019]; root of context hierarchy
+2019-03-07 18:00:00.656 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'nonCalculationExecutor'
+2019-03-07 18:00:00.656 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'calculationExecutor'
+2019-03-07 18:00:00.656 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'fileMonitorExecutor'
+2019-03-07 18:00:00.658 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} closed
+2019-03-07 18:01:22.310 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Starting ImdroidMappingApplicationTests on jason-176.local with PID 23926 (started by jason in /Users/jason/Documents/work/mapping)
+2019-03-07 18:01:22.313 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | The following profiles are active: dev
+2019-03-07 18:01:22.342 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6853425f: startup date [Thu Mar 07 18:01:22 CST 2019]; root of context hierarchy
+2019-03-07 18:01:23.360 [main] INFO  --- o.s.b.a.l.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-07 18:02:32.190 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Starting ImdroidMappingApplicationTests on jason-176.local with PID 23936 (started by jason in /Users/jason/Documents/work/mapping)
+2019-03-07 18:02:32.192 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | The following profiles are active: dev
+2019-03-07 18:02:32.228 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:02:32 CST 2019]; root of context hierarchy
+2019-03-07 18:02:34.066 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitor'
+2019-03-07 18:02:34.071 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitorExecutor'
+2019-03-07 18:02:34.073 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:02:34.074 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'calculationExecutor'
+2019-03-07 18:02:34.074 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:02:34.075 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'nonCalculationExecutor'
+2019-03-07 18:02:34.423 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:02:34.482 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:02:32 CST 2019]; root of context hierarchy
+2019-03-07 18:02:34.488 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Detected ResponseBodyAdvice bean in globalResponseBodyHandler
+2019-03-07 18:02:34.553 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/task/end]}" onto public java.lang.String com.imdroid.controller.TaskController.endTask(java.lang.Long)
+2019-03-07 18:02:34.556 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 18:02:34.557 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 18:02:34.585 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:02:34.585 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:02:34.600 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in globalExceptionHandler
+2019-03-07 18:02:34.601 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected ResponseBodyAdvice implementation in globalResponseBodyHandler
+2019-03-07 18:02:34.973 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Started ImdroidMappingApplicationTests in 3.321 seconds (JVM running for 4.09)
+2019-03-07 18:02:34.991 [fileMonitor-1] INFO  --- com.imdroid.programSelfStart.FileMonitor | 开启文件监控成功
+2019-03-07 18:02:36.429 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+2019-03-07 18:02:36.714 [main] INFO  --- o.s.beans.factory.xml.XmlBeanDefinitionReader | Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-03-07 18:02:36.757 [main] INFO  --- o.s.b.a.l.ConditionEvaluationReportLoggingListener | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-07 18:02:36.763 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Closing org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:02:32 CST 2019]; root of context hierarchy
+2019-03-07 18:02:36.766 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'nonCalculationExecutor'
+2019-03-07 18:02:36.766 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'calculationExecutor'
+2019-03-07 18:02:36.766 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'fileMonitorExecutor'
+2019-03-07 18:02:36.769 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} closed
+2019-03-07 18:02:51.807 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Starting ImdroidMappingApplicationTests on jason-176.local with PID 23940 (started by jason in /Users/jason/Documents/work/mapping)
+2019-03-07 18:02:51.811 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | The following profiles are active: dev
+2019-03-07 18:02:51.841 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:02:51 CST 2019]; root of context hierarchy
+2019-03-07 18:02:53.747 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitor'
+2019-03-07 18:02:53.753 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitorExecutor'
+2019-03-07 18:02:53.756 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:02:53.756 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'calculationExecutor'
+2019-03-07 18:02:53.757 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:02:53.757 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'nonCalculationExecutor'
+2019-03-07 18:02:54.101 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:02:54.173 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:02:51 CST 2019]; root of context hierarchy
+2019-03-07 18:02:54.180 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Detected ResponseBodyAdvice bean in globalResponseBodyHandler
+2019-03-07 18:02:54.253 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/task/end]}" onto public java.lang.String com.imdroid.controller.TaskController.endTask(java.lang.Long)
+2019-03-07 18:02:54.260 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 18:02:54.261 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 18:02:54.289 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:02:54.290 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:02:54.305 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in globalExceptionHandler
+2019-03-07 18:02:54.305 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected ResponseBodyAdvice implementation in globalResponseBodyHandler
+2019-03-07 18:02:54.601 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Started ImdroidMappingApplicationTests in 3.36 seconds (JVM running for 4.161)
+2019-03-07 18:02:54.618 [fileMonitor-1] INFO  --- com.imdroid.programSelfStart.FileMonitor | 开启文件监控成功
+2019-03-07 18:02:54.687 [main] INFO  --- com.imdroid.programSelfStart.TaskDataPrepare | 数据初始化完成
+2019-03-07 18:02:55.118 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+2019-03-07 18:02:55.193 [Thread-2] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Closing org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:02:51 CST 2019]; root of context hierarchy
+2019-03-07 18:02:55.197 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'nonCalculationExecutor'
+2019-03-07 18:02:55.197 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'calculationExecutor'
+2019-03-07 18:02:55.197 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'fileMonitorExecutor'
+2019-03-07 18:02:55.203 [Thread-2] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} closed
+2019-03-07 18:04:54.990 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Starting ImdroidMappingApplicationTests on jason-176.local with PID 23967 (started by jason in /Users/jason/Documents/work/mapping)
+2019-03-07 18:04:54.993 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | The following profiles are active: dev
+2019-03-07 18:04:55.028 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:04:55 CST 2019]; root of context hierarchy
+2019-03-07 18:04:56.628 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitor'
+2019-03-07 18:04:56.632 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitorExecutor'
+2019-03-07 18:04:56.634 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:04:56.634 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'calculationExecutor'
+2019-03-07 18:04:56.635 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:04:56.635 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'nonCalculationExecutor'
+2019-03-07 18:04:56.938 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:04:56.998 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:04:55 CST 2019]; root of context hierarchy
+2019-03-07 18:04:57.004 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Detected ResponseBodyAdvice bean in globalResponseBodyHandler
+2019-03-07 18:04:57.069 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/task/end]}" onto public java.lang.String com.imdroid.controller.TaskController.endTask(java.lang.Long)
+2019-03-07 18:04:57.072 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 18:04:57.074 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 18:04:57.098 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:04:57.099 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:04:57.112 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in globalExceptionHandler
+2019-03-07 18:04:57.112 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected ResponseBodyAdvice implementation in globalResponseBodyHandler
+2019-03-07 18:04:57.429 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Started ImdroidMappingApplicationTests in 2.936 seconds (JVM running for 3.716)
+2019-03-07 18:04:57.442 [fileMonitor-1] INFO  --- com.imdroid.programSelfStart.FileMonitor | 开启文件监控成功
+2019-03-07 18:04:57.529 [main] INFO  --- com.imdroid.programSelfStart.TaskDataPrepare | 数据初始化完成
+2019-03-07 18:04:57.923 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+2019-03-07 18:04:58.032 [Thread-2] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Closing org.springframework.web.context.support.GenericWebApplicationContext@53251a66: startup date [Thu Mar 07 18:04:55 CST 2019]; root of context hierarchy
+2019-03-07 18:04:58.035 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'nonCalculationExecutor'
+2019-03-07 18:04:58.036 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'calculationExecutor'
+2019-03-07 18:04:58.036 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'fileMonitorExecutor'
+2019-03-07 18:04:58.041 [Thread-2] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} closed
+2019-03-07 18:05:35.396 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Starting ImdroidMappingApplicationTests on jason-176.local with PID 23974 (started by jason in /Users/jason/Documents/work/mapping)
+2019-03-07 18:05:35.400 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | The following profiles are active: dev
+2019-03-07 18:05:35.438 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6853425f: startup date [Thu Mar 07 18:05:35 CST 2019]; root of context hierarchy
+2019-03-07 18:05:37.367 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitor'
+2019-03-07 18:05:37.374 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitorExecutor'
+2019-03-07 18:05:37.376 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:05:37.376 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'calculationExecutor'
+2019-03-07 18:05:37.377 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:05:37.377 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'nonCalculationExecutor'
+2019-03-07 18:05:37.721 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:05:37.782 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6853425f: startup date [Thu Mar 07 18:05:35 CST 2019]; root of context hierarchy
+2019-03-07 18:05:37.788 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Detected ResponseBodyAdvice bean in globalResponseBodyHandler
+2019-03-07 18:05:37.851 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/task/end]}" onto public java.lang.String com.imdroid.controller.TaskController.endTask(java.lang.Long)
+2019-03-07 18:05:37.854 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 18:05:37.855 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 18:05:37.881 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:05:37.881 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:05:37.895 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in globalExceptionHandler
+2019-03-07 18:05:37.896 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected ResponseBodyAdvice implementation in globalResponseBodyHandler
+2019-03-07 18:05:38.255 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Started ImdroidMappingApplicationTests in 3.469 seconds (JVM running for 4.272)
+2019-03-07 18:05:38.272 [fileMonitor-1] INFO  --- com.imdroid.programSelfStart.FileMonitor | 开启文件监控成功
+2019-03-07 18:05:38.337 [main] INFO  --- com.imdroid.programSelfStart.TaskDataPrepare | 数据初始化完成
+2019-03-07 18:05:38.776 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+2019-03-07 18:05:38.890 [main] INFO  --- com.imdroid.service.impl.TaskServiceImpl | 计算station8开始
+2019-03-07 18:05:38.896 [Thread-2] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Closing org.springframework.web.context.support.GenericWebApplicationContext@6853425f: startup date [Thu Mar 07 18:05:35 CST 2019]; root of context hierarchy
+2019-03-07 18:05:38.899 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'nonCalculationExecutor'
+2019-03-07 18:05:38.900 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'calculationExecutor'
+2019-03-07 18:05:38.900 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'fileMonitorExecutor'
+2019-03-07 18:05:38.905 [Thread-2] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} closed
+2019-03-07 18:07:25.054 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Starting ImdroidMappingApplicationTests on jason-176.local with PID 23987 (started by jason in /Users/jason/Documents/work/mapping)
+2019-03-07 18:07:25.058 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | The following profiles are active: dev
+2019-03-07 18:07:25.094 [main] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6853425f: startup date [Thu Mar 07 18:07:25 CST 2019]; root of context hierarchy
+2019-03-07 18:07:27.164 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitor'
+2019-03-07 18:07:27.173 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'fileMonitorExecutor'
+2019-03-07 18:07:27.175 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:07:27.175 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'calculationExecutor'
+2019-03-07 18:07:27.176 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService 
+2019-03-07 18:07:27.177 [main] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Initializing ExecutorService  'nonCalculationExecutor'
+2019-03-07 18:07:27.551 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:07:27.609 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@6853425f: startup date [Thu Mar 07 18:07:25 CST 2019]; root of context hierarchy
+2019-03-07 18:07:27.614 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerAdapter | Detected ResponseBodyAdvice bean in globalResponseBodyHandler
+2019-03-07 18:07:27.696 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/task/end]}" onto public java.lang.String com.imdroid.controller.TaskController.endTask(java.lang.Long)
+2019-03-07 18:07:27.700 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-07 18:07:27.701 [main] INFO  --- o.s.w.s.m.m.a.RequestMappingHandlerMapping | Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-07 18:07:27.735 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:07:27.735 [main] INFO  --- o.s.web.servlet.handler.SimpleUrlHandlerMapping | Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-07 18:07:27.753 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected @ExceptionHandler methods in globalExceptionHandler
+2019-03-07 18:07:27.753 [main] INFO  --- o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver | Detected ResponseBodyAdvice implementation in globalResponseBodyHandler
+2019-03-07 18:07:28.174 [main] INFO  --- com.imdroid.ImdroidMappingApplicationTests | Started ImdroidMappingApplicationTests in 3.771 seconds (JVM running for 4.593)
+2019-03-07 18:07:28.190 [fileMonitor-1] INFO  --- com.imdroid.programSelfStart.FileMonitor | 开启文件监控成功
+2019-03-07 18:07:29.092 [main] INFO  --- com.imdroid.programSelfStart.TaskDataPrepare | 数据初始化完成
+2019-03-07 18:07:29.556 [main] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} inited
+2019-03-07 18:07:29.672 [main] INFO  --- com.imdroid.service.impl.TaskServiceImpl | 计算station8开始
+2019-03-07 18:07:40.460 [main] INFO  --- com.imdroid.service.impl.TaskServiceImpl | 水平旋转完成，旋转了13.478749935758714度
+2019-03-07 18:07:42.448 [main] INFO  --- com.imdroid.service.impl.TaskServiceImpl | QuotaData(pk=null, quotaValue=0.0, quotaType=201, detectionPoints=2, passPoints=2, manuals={"coordinate":"Y","coordinateValue":1.1019,"endW":-0.66,"height":2.2332,"measureSize":0.0,"name":"1","no":"c","standardSize":0.0,"startW":0.5257,"thickness":0.0,"type":"门","verticality":0.0,"width":1.1857}, associateType=2, associatePk=null, associateName=null, quotaAlias=null, standardValue=null)
+2019-03-07 18:07:42.455 [main] INFO  --- com.imdroid.service.impl.TaskServiceImpl | QuotaData(pk=null, quotaValue=0.0, quotaType=201, detectionPoints=2, passPoints=2, manuals={"coordinate":"Y","coordinateValue":-1.0338,"endW":0.4203,"height":2.2547,"measureSize":0.0,"name":"2","no":"c","standardSize":0.0,"startW":-0.3757,"thickness":0.0,"type":"门","verticality":0.0,"width":0.796}, associateType=2, associatePk=null, associateName=null, quotaAlias=null, standardValue=null)
+2019-03-07 18:07:43.111 [main] INFO  --- com.imdroid.utils.WallUtil | 开始计算墙面floor
+2019-03-07 18:07:43.369 [main] INFO  --- com.imdroid.utils.WallUtil | 开始计算墙面ceil
+2019-03-07 18:07:45.057 [main] INFO  --- com.imdroid.utils.WallUtil | 开始计算墙面S2.1
+2019-03-07 18:07:45.545 [main] INFO  --- com.imdroid.utils.WallUtil | 开始计算墙面S2.2
+2019-03-07 18:07:45.605 [main] INFO  --- com.imdroid.utils.WallUtil | 开始计算墙面S2.3
+2019-03-07 18:07:46.558 [main] INFO  --- com.imdroid.utils.WallUtil | 开始计算墙面S3.1
+2019-03-07 18:07:46.797 [main] INFO  --- com.imdroid.utils.WallUtil | 开始计算墙面S3.2
+2019-03-07 18:07:46.896 [main] INFO  --- com.imdroid.utils.WallUtil | 开始计算墙面S3.3
+2019-03-07 18:07:54.524 [main] INFO  --- com.imdroid.utils.ImageUtil | 俯视图生成完成
+2019-03-07 18:08:15.097 [main] INFO  --- com.imdroid.service.impl.TaskServiceImpl | 图片生成完毕
+2019-03-07 18:08:16.788 [main] INFO  --- o.s.beans.factory.xml.XmlBeanDefinitionReader | Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2019-03-07 18:08:16.831 [Thread-2] INFO  --- o.s.w.context.support.GenericWebApplicationContext | Closing org.springframework.web.context.support.GenericWebApplicationContext@6853425f: startup date [Thu Mar 07 18:07:25 CST 2019]; root of context hierarchy
+2019-03-07 18:08:16.834 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'nonCalculationExecutor'
+2019-03-07 18:08:16.835 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'calculationExecutor'
+2019-03-07 18:08:16.835 [Thread-2] INFO  --- o.s.scheduling.concurrent.ThreadPoolTaskExecutor | Shutting down ExecutorService 'fileMonitorExecutor'
+2019-03-07 18:08:16.839 [Thread-2] INFO  --- com.alibaba.druid.pool.DruidDataSource | {dataSource-1} closed
